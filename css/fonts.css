@@ -1,0 +1,120 @@
+/* ---------------------- Bender ---------------------------------- */
+@font-face {
+	font-family: "Bender";
+	src: url("../fonts/bender-medium.woff2") format("woff2"), url("../fonts/bender-medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Bender";
+	src: url("../fonts/bender-bold.woff2") format("woff2"), url("../fonts/bender-bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Bender";
+	src: url("../fonts/bender-black.woff2") format("woff2"), url("../fonts/bender-black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Bender";
+	src: url("../fonts/bender-italic.woff2") format("woff2"), url("../fonts/bender-italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: italic;
+}
+
+/* ---------------------- Comfortaa ---------------------------------- */
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/comfortaa-regular.woff2") format("woff2"), url("../comfortaa-regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/comfortaa-medium.woff2") format("woff2"), url("../comfortaa-medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/comfortaa-bold.woff2") format("woff2"), url("../comfortaa-bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* ---------------------- Gardens ---------------------------------- */
+@font-face {
+	font-family: "Gardens";
+	src: url("../fonts/gardens-regular.woff2") format("woff2"), url("../gardens-regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* ---------------------- Inglobal ---------------------------------- */
+@font-face {
+	font-family: "Inglobal";
+	src: url("../fonts/inglobal-regular.woff2") format("woff2"), url("../inglobal-regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inglobal";
+	src: url("../fonts/inglobal-bold.woff2") format("woff2"), url("../inglobal-bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+#bender-medium{
+	font-family: "Bender";
+	font-weight: 500;
+}
+#bender-bold{
+	font-family: "Bender";
+	font-weight: 700;
+}
+#bender-black{
+	font-family: "Bender";
+	font-weight: 900;
+}
+#bender-italic{
+	font-family: "Bender";
+	font-weight: 500;
+	font-style: italic;
+}
+#comfortaa-regular{
+	font-family: "comfortaa";
+	font-weight: 400;
+}
+#comfortaa-medium{
+	font-family: "comfortaa";
+	font-weight: 500;
+}
+#comfortaa-bold{
+	font-family: "comfortaa";
+	font-weight: 700;
+}
+#gardens-regular{
+	font-family: "Gardens";
+	font-weight: 400;
+}
+#inglobal-regular{
+	font-family: "Inglobal";
+	font-weight: 400;
+}
+#inglobal-bold{
+	font-family: "Inglobal";
+	font-weight: 700;
+}

@@ -1,0 +1,144 @@
+.container{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page {
+	font-family: "Inglobal";
+	font-weight: 400;
+	font-size: 20px;
+	padding: 20px;
+	color: rgb(34, 34, 34);
+	line-height: 28px;
+}
+.page__title {
+	font-family: "Inglobal";
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 60px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.page__title-box.page__title-box_main{
+	padding: 0 150px 0;
+}
+h2{
+	font-family: "Comfortaa";
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: 1.5px;
+	text-align: left;
+}
+
+.main-content__block {
+	padding-top: 50px;
+}
+.main-content__text-box {
+	margin: 32px 0;
+}
+.main-content__list-box {
+	margin: 0px 153px 10px;
+}
+.main-content__list {
+	text-indent: 40px;
+}
+.main-content__list-box.main-content__list-box_navigation .main-content__item{
+	text-indent: 0px;
+}
+.main-content__item {
+	font-family: "Gardens";
+	text-align: justify;
+	margin: 10px 0;
+}
+.main-content__link {
+	font-family: "Bender";
+	font-weight: 900;
+	color: brown
+}
+.main-content__list-box.main-content__list-box_navigation{
+	text-decoration: underline;
+}
+.main-content__title {
+	text-shadow: 4px 4px 15px rgba(79, 10, 10, 0.626);
+	line-height: 1.2;
+	letter-spacing: 5px;
+}
+.main-content__image-box {
+	text-indent: 0px;
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+.main-content__image-box.main-content__image-box_main{
+	margin: 0 153px;
+}
+.main-content__list-name {
+	margin: 32px 0 20px;
+}
+.main-content__link-outside {
+	font-family: "Bender";
+	font-weight: 900;
+	color: brown;
+}
+.main-content__item .main-content__link-outside{
+	text-decoration: overline;
+}
+.main-content__title-explanation {
+	font-family: "Bender";
+	font-style: italic;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.main-content__list.main-content__list_capitalize .main-content__item ~li{
+	text-transform: capitalize;
+	word-spacing: 5px;
+}
+.main-content__list.main-content__list_center .main-content__item{
+	text-align: center;
+}
+
+/* ------------------------------- Тест вложенности ------------------------------ */
+.footer__inheritance-test{
+	font-weight: 700;
+}
+.footer__inheritance-test>ol{
+	padding-left: 20px;
+}
+.footer__inheritance-test>ol>li>ul{
+	padding-left: 20px;
+}
+.footer__inheritance-test>ol>li>ul>li>ol{
+	padding-left: 20px;
+}
+.footer__inheritance-test>ol>li>ul>li>ol>li>ul{
+	padding-left: 20px;
+}
+.footer__inheritance-test>ol>li>ul>li>ol>li>div~p{
+	color: red;
+}
+.footer__inheritance-test>ol>li>ul>li>ol>li>div+p{
+	color: blue;
+}
+.footer__content{
+	margin-left: 320px;
+}
+.footer__fonts{
+	margin: 20px 0 50px;
+}
+.footer__text-box{
+	font-family: "Inglobal";
+	font-weight: 400;
+	font-size: 20px;
+	color: rgb(34, 34, 34);
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+.footer__text{
+	font-family: "Inglobal";
+	font-weight: 400;
+	font-size: 20px;
+	color: rgb(34, 34, 34);
+	line-height: 28px;
+}
